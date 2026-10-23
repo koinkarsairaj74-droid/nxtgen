@@ -30,3 +30,11 @@ Home, About, Academics, Admissions information, Gallery, Notices & Events, Teach
 
 ## Deploy
 Import the GitHub repository into Vercel. Do not add real student or staff data before securing the backend.
+
+## Gen Z redesign (October 2026)
+- Refreshed homepage with purple/lime palette, bolder typography, school-life stock photos, motion effects and prominent admission links.
+- Added richly styled Faculty, Gallery, Notices, Academics, About, Contact, Results and Admissions sections.
+- Faculty photos, classroom photos and event details are illustrations only; no verified campus or actual faculty imagery has been provided.
+- External illustrative images are requested from Unsplash and require an internet connection to render.
+- For GitHub Pages, configure Settings > Pages > Build and deployment > Source: GitHub Actions. Then monitor the deploy workflow for a successful build. Public demo URL is expected at https://koinkarsairaj74-droid.github.io/nxtgen/ only after successful deployment.
+- Full Marathi translations, authenticated CMS, real school information and backend search remain to be implemented.
