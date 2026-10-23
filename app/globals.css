@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{scroll-behavior:smooth}body{background:#fff;color:#102A56} .gold-gradient{background:linear-gradient(110deg,#D5A33D,#F6E2A2,#D5A33D)}
