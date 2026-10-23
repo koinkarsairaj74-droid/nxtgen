@@ -1,6 +1,6 @@
 # NXT GEN English Medium School
 
-A professional, restrained Indian school website design (HTML + CSS + JavaScript). Built for a Maharashtra State Board English-medium school, Nursery to Class XII.
+A contemporary 2026 Indian school website concept (HTML + CSS + JavaScript), combining modern editorial design with a credible school identity. Built for a Maharashtra State Board English-medium school, Nursery to Class XII.
 
 ## Website demo
 
@@ -10,7 +10,7 @@ The demo is live only after GitHub Pages has been enabled in repository **Settin
 
 ## Current website source
 - `site/index.html` — homepage plus nine informational sections
-- `site/style.css` — premium school-specific navy/gold, responsive layout
+- `site/style.css` — original structural styles and responsive foundation\n- `site/modern.css` — 2026 contemporary design layer: responsive editorial homepage, modern navigation, warm navy-and-gold palette, restrained interactions
 - `site/app.js` — navigation, notice/gallery filters, calendar, school search, portal demo
 - `site/favicon.svg` — school crest icon
 
