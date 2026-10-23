@@ -1,40 +1,52 @@
-# NXT GEN ENGLISH MEDIUM SCHOOL
+# NXT GEN ENGLISH MEDIUM SCHOOL ✳
 
-Premium starter website for NXT GEN English Medium School.
+### Premium new-generation school website
 
-## Technology
-Next.js 14, TypeScript, Tailwind CSS, Supabase (optional, not yet configured).
+> Nurturing Today's Learners, Building Tomorrow's Leaders.
 
-## Getting started
-```bash
-npm install
-npm run dev
-```
+**[OPEN WEBSITE DEMO](https://koinkarsairaj74-droid.github.io/nxtgen/)** — opens once GitHub Pages has been enabled and deployed.
 
-Browse at http://localhost:3000.
+## ⭐ New website: built from scratch
 
-## Pages
-Home, About, Academics, Admissions information, Gallery, Notices & Events, Teachers & Staff, Results & Achievements, Contact, Search, four-role demo Login, locked Admin.
+The complete visual website is now in the **`site/`** folder, separate from the older Next.js prototype. GitHub Pages publishes the contents of that folder directly. No package install, compilation or server is required for the public-facing demonstration.
 
-## Important implementation status
-- This is a **working starter**, not a finished production school management or content management platform.
-- Demo text, illustrative facility descriptions and example events are **not verified school facts**.
-- School management authentication is **not connected**. Login is a front-end demonstration.
-- The admin page is **locked** and has no accessible CMS functionality. Do not enable content editing before real authentication, server-side role validation and database RLS are audited.
-- Supabase schema is a locked-down foundation. No access policies are installed, so client access is denied.
-- Marathi support is a **language-switcher UI placeholder**; translations need implementation.
-- Search indexes demo page information locally; backend indexing needs implementation.
-- Official address/social links are pending confirmation.
-- Calendar shows examples only.
-- This GitHub repository was public when the initial files were committed. Never commit API secrets, credentials or actual student records.
+- `site/index.html`: All public pages, semantic structure and responsive navigation.
+- `site/style.css`: Custom fluid layouts, premium type, mobile styling, page animation.
+- `site/app.js`: Single-page navigation, faculty cards, event and notice filters, bilingual-switch placeholder, calendar, gallery, search, demo portal interactions.
+- `site/favicon.svg`: Custom school crest-inspired favicon.
+- `.github/workflows/deploy.yml`: Static GitHub Pages publishing action.
 
-## Deploy
-Import the GitHub repository into Vercel. Do not add real student or staff data before securing the backend.
+A fallback `index.html` at repository root redirects to `site/` for sites configured to publish from the main branch rather than from GitHub Actions.
 
-## Gen Z redesign (October 2026)
-- Refreshed homepage with purple/lime palette, bolder typography, school-life stock photos, motion effects and prominent admission links.
-- Added richly styled Faculty, Gallery, Notices, Academics, About, Contact, Results and Admissions sections.
-- Faculty photos, classroom photos and event details are illustrations only; no verified campus or actual faculty imagery has been provided.
-- External illustrative images are requested from Unsplash and require an internet connection to render.
-- For GitHub Pages, configure Settings > Pages > Build and deployment > Source: GitHub Actions. Then monitor the deploy workflow for a successful build. Public demo URL is expected at https://koinkarsairaj74-droid.github.io/nxtgen/ only after successful deployment.
-- Full Marathi translations, authenticated CMS, real school information and backend search remain to be implemented.
+## 🚀 See the demo using GitHub Pages
+
+1. Go to **Settings → Pages** in GitHub for this repository.
+2. Under **Build and deployment → Source**, choose **GitHub Actions**.
+3. Open the **Actions** tab and select **Deploy NXT GEN Premium School Website**.
+4. A successful deployment serves the site at **https://koinkarsairaj74-droid.github.io/nxtgen/**.
+
+If the site is not shown yet, inspect the Actions deployment status. A GitHub README preview is not the website.
+
+## Public sections
+
+Home, Our Story, Academics (Nursery to Class XII), Faculty, Notices & Events (filters + calendar), Gallery (filters + sample imagery), Admission Information, Achievements, Contact, and a four-role login-interface preview.
+
+## Demo vs. production
+
+**This is a design and interaction demo, not a production management system.**
+
+- Stock photos and sample educator portraits are **not photos of NXT GEN or its faculty**. Verified school photography should replace them.
+- Sample notices, event dates, facilities and academic information are labeled illustrative.
+- Phone, address, email and social links remain unconfigured until official details are supplied.
+- The language button indicates planned Marathi support; complete Marathi content is not yet authored.
+- The calendar is navigable with explicitly labeled sample activities.
+- The search function indexes static demo pages and sample notice data, not a future CMS database.
+- The student/parent/teacher/admin portal is a safe no-op demo; **no credentials are sent or stored**.
+- The previously planned Supabase-backed website CMS remains unconnected. No secret keys, student data or live school administrative actions should be published on GitHub Pages.
+- The previous `app/` and `components/` Next.js prototype files remain in the repository but **are no longer deployed**.
+
+## Development
+
+Open `site/index.html` in a browser to inspect the frontend locally. The sample stock images and Google Fonts need an internet connection.
+
+**Important:** The repository was public when development began. Keep all confidential records and access credentials out of Git.
