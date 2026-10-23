@@ -1,32 +1,37 @@
 # NXT GEN English Medium School
 
-A contemporary 2026 Indian school website concept (HTML + CSS + JavaScript), combining modern editorial design with a credible school identity. Built for a Maharashtra State Board English-medium school, Nursery to Class XII.
+## Final visual choice: Template 1 — Modern Premium (Balanced & Professional)
 
-## Website demo
+This repository's **GitHub Pages website** now uses the user-selected Template 1 direction.
 
-**https://koinkarsairaj74-droid.github.io/nxtgen/**
+### Demo website
 
-The demo is live only after GitHub Pages has been enabled in repository **Settings → Pages → GitHub Actions** and the workflow succeeds.
+https://koinkarsairaj74-droid.github.io/nxtgen/
 
-## Current website source
-- `site/index.html` — homepage plus nine informational sections
-- `site/style.css` — original structural styles and responsive foundation\n- `site/modern.css` — 2026 contemporary design layer: responsive editorial homepage, modern navigation, warm navy-and-gold palette, restrained interactions
-- `site/app.js` — navigation, notice/gallery filters, calendar, school search, portal demo
-- `site/favicon.svg` — school crest icon
+The address becomes available after GitHub Pages has successfully deployed the `main` branch's `site/` directory through **Settings → Pages → GitHub Actions**.
 
-The GitHub Actions workflow deploys `site/` directly, without Next.js or npm. An older Next.js prototype remains in the repository but is **not used** by GitHub Pages.
+### Source files for the selected design
 
-### Current sections
-Home, About Us, Academics, Admission Information, Notices & Events, Our Faculty, Gallery, Results & Achievements, Contact, School Portal.
+- `site/index.html` — new Template 1 layout and complete public information pages.
+- `site/template-one.css` — self-contained responsive visual design.
+- `site/app.js` — navigation, search, dynamic demo notices, gallery filters, faculty listings, calendars, role-selector login UI.
+- `site/favicon.svg` — custom school crest.
+- `.github/workflows/deploy.yml` — publishes `site/` directly, with **no Next.js build**.
 
-### Important accuracy and security notes
-This is a frontend demonstration, **not an official publication of verified school information**. Photos are generic education-related sample images and are explicitly labeled as such. No actual faculty names/photos, school address, contact numbers, exam results, or school-specific achievements are represented as verified facts. No student information is stored.
+Older Next.js prototype files and unused old stylesheets remain for source history but are **not linked from this website**.
 
-The login design is a demonstration only; it does not authenticate or transmit credentials. The existing school management software and the secure Supabase CMS are not connected. The English/Marathi button is a placeholder until approved translations are written. The search indexes static demonstration content, not live data. Calendar events and notices are illustrative.
+### Design
 
-### Launch preparation
-1. Replace stock images with actual school/campus/classroom photos and obtain school approval.
-2. Add verified address, principal/chairman message, teachers, events, and official contact links.
-3. Implement approved Marathi content and school management integration.
-4. Host any CMS or management authentication on a secure backend; do not store credentials in this public GitHub Pages repository.
-5. Verify mobile and desktop rendering, accessibility and live deployment before public launch.
+Template 1 includes a large photographic hero with navy gradient, formal white school masthead, navy navigation, restrained gold CTAs, four-value highlight strip, welcome/principal section, academics, faculty, notices & calendar, school-life gallery, and admissions.
+
+### Accuracy / production readiness
+
+**Visual demonstration only, not the live school management platform.** Stock images are not actual school photographs. All faculty names and profiles, facilities, event notices, school contact details and school history require verification before publication. Academic years 2026–27 and 2027–28 are illustrative. The public website does not collect admissions applications, as requested.
+
+The Admin/Teacher/Student/Parent login tabs are non-functional demonstration UI; no credentials are transmitted or stored. A separate secure content-management admin panel, Supabase configuration, bilingual Marathi content, and integration to the existing management software remain outstanding and require server-side authentication and permissions. GitHub Pages is static hosting, so these require a separate secure backend.
+
+### Development and deployment
+
+Open `site/index.html` locally to preview (internet is required for fonts and illustrative Unsplash photos). Use **GitHub → Settings → Pages → Source: GitHub Actions** to publish. View the Actions tab for a successful deployment; committing code alone does not confirm a live site.
+
+Do not upload real student data or credentials into a public repository.
