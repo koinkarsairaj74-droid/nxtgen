@@ -4,9 +4,9 @@ const $$=(q,root=document)=>[...root.querySelectorAll(q)];
 const content={
   faculty:[
     {name:"School Principal",department:"SCHOOL LEADERSHIP",desc:"Guiding the school community with compassion and purpose.",photo:"https://images.unsplash.com/photo-1580489944761-15a19d654956?w=700&q=82&fit=crop"},
-    {name:"Primary Educator",department:"PRIMARY DEPARTMENT",desc:"Helping young learners discover the joy of learning.",photo:"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=700&q=82&fit=crop"},
-    {name:"Science Educator",department:"SCIENCE DEPARTMENT",desc:"Inspiring a spirit of questioning and exploration.",photo:"https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700&q=82&fit=crop"},
-    {name:"Language Educator",department:"LANGUAGES DEPARTMENT",desc:"Encouraging communication, stories and self-expression.",photo:"https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=700&q=82&fit=crop"}
+    {name:"Primary Educator",department:"PRIMARY DEPARTMENT",desc:"Helping children grow through reading, writing, numeracy and joyful classroom learning.",photo:"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=700&q=82&fit=crop"},
+    {name:"Science Educator",department:"SCIENCE DEPARTMENT",desc:"Encouraging practical science, curiosity and strong subject foundations.",photo:"https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=700&q=82&fit=crop"},
+    {name:"Language Educator",department:"LANGUAGES DEPARTMENT",desc:"Supporting English, Marathi and communication skills.",photo:"https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=700&q=82&fit=crop"}
   ],
   facilities:["Smart Classrooms","Computer Laboratory","Physics, Chemistry & Biology Labs","School Library","Sports & Playground","School Bus & Transport","CCTV & Campus Security","Medical & First Aid","Art, Music & Cultural Activities","Auditorium & Multipurpose Hall","Digital Learning & Wi-Fi","Canteen & Drinking Water"],
   stages:[
@@ -17,19 +17,19 @@ const content={
   ],
   notices:[
     {type:"Academic",date:"2026–27",title:"Academic session overview",desc:"Demo circular: official start dates and schedules will be published by school management.",icon:"✦"},
-    {type:"Event",date:"Sample event",title:"Creativity & culture celebration",desc:"Illustrative event to demonstrate the school activities calendar.",icon:"✳"},
+    {type:"Event",date:"Sample event",title:"Annual day and cultural programme",desc:"Illustrative event to demonstrate the school activities calendar.",icon:"✳"},
     {type:"Notice",date:"2027–28",title:"Admission information",desc:"Guidance for prospective families; official admissions dates are pending.",icon:"↗"},
     {type:"Notice",date:"Demo update",title:"Notice board announcement",desc:"School administrators will be able to publish approved notices when the future CMS is connected.",icon:"✉"},
     {type:"Academic",date:"Sample circular",title:"Academic calendar information",desc:"A sample academic notice, not a school-issued circular.",icon:"✦"},
-    {type:"Event",date:"Sample activity",title:"School learning showcase",desc:"An example event card demonstrating the website's future event publishing.",icon:"✳"}
+    {type:"Event",date:"Sample activity",title:"Science exhibition and student activities",desc:"An example event card demonstrating the website's future event publishing.",icon:"✳"}
   ],
   gallery:[
-    {title:"Learning together",type:"Learning",photo:"https://images.unsplash.com/photo-1509062522246-3755977927d7?w=900&q=85&fit=crop"},
-    {title:"Bright learning moments",type:"Learning",photo:"https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=900&q=85&fit=crop"},
+    {title:"School classroom learning",type:"Learning",photo:"indian-school-illustration.svg"},
+    {title:"Students and classroom activities",type:"Learning",photo:"https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=900&q=85&fit=crop"},
     {title:"Discover new worlds",type:"Spaces",photo:"https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=900&q=85&fit=crop"},
     {title:"Books & bright ideas",type:"Spaces",photo:"https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=900&q=85&fit=crop"},
-    {title:"Community and discovery",type:"Activities",photo:"https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=900&q=85&fit=crop"},
-    {title:"Exploring technology",type:"Activities",photo:"https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900&q=85&fit=crop"}
+    {title:"Campus and school community",type:"Activities",photo:"https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=900&q=85&fit=crop"},
+    {title:"Computer laboratory and digital learning",type:"Activities",photo:"https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900&q=85&fit=crop"}
   ]
 };
 const pages=new Set(["home","about","academics","faculty","notices","gallery","admissions","achievements","contact","login"]);
