@@ -1,0 +1,77 @@
+/* NXT GEN — Selected concept 01: cinematic glass, subtle institutional polish. */
+:root{--accent:#a7cefc;--gold:#d7b985;--ink:#0a2942}
+body{background:#f0f5fa;color:#17344f}
+.site-background{background:linear-gradient(170deg,#e8f1f8 0%,#f7fbff 58%,#e9f1f8 100%)}
+.topbar{background:#112c3f;color:#d1e1ee;height:32px}
+.nav-anchor{padding-top:9px;padding-bottom:9px;background:#152e3c;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)}
+.glass-navigation{min-height:72px;border:1px solid #e2effc3d;border-radius:18px;background:linear-gradient(105deg,#ffffff22,#ffffff12 54%,#ffffff27);backdrop-filter:blur(26px) saturate(145%);-webkit-backdrop-filter:blur(26px) saturate(145%);box-shadow:inset 0 1px 0 #ffffff35,0 12px 28px #001b252b;padding:7px 18px;gap:14px}
+.glass-navigation:before{background:linear-gradient(85deg,transparent,#ffffff1a,transparent)}
+.brand-words strong{color:#fff;font-size:24px;letter-spacing:-.055em}
+.brand-words strong span{color:#f3d8a1}
+.brand-words small{color:#dae8f2}
+.nav-links>a,.more-menu>summary{color:#ecf4fb;font-size:11px;padding:10px 9px;font-weight:700}
+.nav-links>a:hover,.nav-links>a.current,.more-menu>summary:hover{background:#ffffff2f;color:#fff;box-shadow:none}
+.nav-links>a.current{box-shadow:inset 0 -2px 0 #a9d3fb}
+.more-list{background:#17364b;border:1px solid #7ca0b560;box-shadow:0 20px 46px #09223670}
+.more-list a{color:#eaf4fb}
+.more-list a:hover{color:white;background:#ffffff21}
+.language-toggle{color:#eaf3fa}
+.language-toggle span{color:#c7dfef}
+.icon-button{background:#ffffff1e;border:1px solid #ffffff29;color:#f6fbff}
+.portal-button{background:#f7fafd;color:#0d2b47;box-shadow:0 3px 15px #001f3839;border-radius:12px}
+.portal-button:hover{background:#d9ebf9}
+.mobile-menu{background:#ffffff2b}
+.mobile-menu span{background:#fff}
+.home-hero.shell{max-width:none;width:100%;margin:0}
+.hero-panel{min-height:620px;border:0;border-radius:0;overflow:hidden;background:#183f52;box-shadow:none}
+.hero-panel:before{content:'';position:absolute;inset:0;width:auto;height:auto;border-radius:0;background:linear-gradient(90deg,#0a1f2be8 0%,#0b2839e5 35%,#1534439e 60%,#12324982 100%);z-index:1;pointer-events:none}
+.hero-scene{position:absolute;inset:0;z-index:0;overflow:hidden}
+.hero-scene img{height:100%;width:100%;object-fit:cover;object-position:center 53%;filter:blur(3px) saturate(.87);transform:scale(1.04)}
+.hero-grid{width:min(1240px,calc(100% - 80px));max-width:1240px;margin:0 auto;min-height:610px;grid-template-columns:48% 52%;padding:58px 0 146px;gap:5px;align-items:center;z-index:3}
+.hero-copy{padding:0 34px 0 0}
+.hero-tag{background:#ffffff1f;border:1px solid #ffffff3b;color:#edf7ff;box-shadow:none;font-size:11px;padding:9px 13px}
+.hero-tag svg{color:#f6d5ab}
+.hero-copy h1{font-size:clamp(43px,4.7vw,68px);letter-spacing:-.06em;line-height:1.13;margin:24px 0 23px;color:white;text-shadow:0 2px 18px #0002}
+.hero-copy h1 em{color:#a5cfff;font-style:normal}
+.hero-copy p{font-size:15px;color:#e1eaf0;line-height:1.95;max-width:505px}
+.hero-buttons{gap:12px}
+.hero-buttons .button{padding:15px 20px;font-size:12px;border-radius:13px}
+.hero-buttons .button-primary{background:#f6f9ff;color:#113653;box-shadow:0 5px 24px #d4e9ff55}
+.hero-buttons .button-primary:hover{background:#e5f0fc}
+.hero-buttons .button-white{background:#ffffff20;border:1px solid #ffffff5f;color:white;backdrop-filter:blur(15px)}
+.hero-buttons .button-white:hover{background:#ffffff38}
+.hero-trust{color:#dae6ed;font-size:11px;margin-top:31px}
+.hero-trust svg{color:#a8d6f5}
+.hero-trust i{background:#f2ce90}
+.hero-media{padding:15px 0;min-height:390px;display:flex;justify-content:flex-end;align-items:center;position:relative}
+.students-hero{position:relative;width:95%;height:360px;border-radius:30px;overflow:hidden;border:1px solid #ffffff4d;box-shadow:0 30px 50px #051b2c53;transform:translateX(8px)}
+.students-hero img{width:100%;height:100%;object-fit:cover;object-position:47% center;filter:saturate(.95)}
+.students-hero:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#08213279,transparent 40%)}
+.students-caption{position:absolute;bottom:17px;right:19px;color:#fff;font-size:10px;font-weight:700;z-index:1;text-shadow:0 2px 6px #0006}
+.school-board-badge{z-index:3;position:absolute;top:6px;right:-11px;border-radius:19px;padding:17px 18px;display:flex;gap:13px;align-items:center;color:#effaff;background:#1d4253bd;border:1px solid #ffffff43;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);box-shadow:0 14px 45px #071a2c6d;max-width:285px}
+.board-badge-icon{width:38px;height:38px;flex:none;border-radius:11px;display:grid;place-items:center;background:#ffffff2b}
+.board-badge-icon svg{width:20px;height:20px}
+.school-board-badge b,.school-board-badge small{display:block}
+.school-board-badge b{font-size:11px;line-height:1.3}
+.school-board-badge small{font-size:10px;color:#d3e3ee;margin-top:4px}
+.school-board-badge>span:last-child{font-size:18px;color:#d7eaff}
+.hero-feature-grid{left:max(24px,calc((100% - 1240px)/2));right:max(24px,calc((100% - 1240px)/2));bottom:24px;gap:12px;z-index:5}
+.hero-feature{border-radius:16px;padding:17px 14px;background:linear-gradient(120deg,#ffffff45,#dcecf947);border:1px solid #ffffff55;backdrop-filter:blur(27px) saturate(130%);-webkit-backdrop-filter:blur(27px) saturate(130%);box-shadow:0 6px 25px #0b273525,inset 0 1px 0 #ffffff44}
+.hero-feature .h-icon{background:#ffffff41;color:#f9ffff;width:42px;height:42px;border-radius:50%;border:1px solid #ffffff60}
+.hero-feature b{color:#fff;font-size:12px}
+.hero-feature small{color:#e6f0f6;font-size:10px;line-height:1.6}
+.notice-ribbon{margin-top:0;border-radius:0 0 16px 16px;background:linear-gradient(100deg,#f6fafe,#e7f1f9);border:1px solid white;padding:15px 24px;box-shadow:0 10px 35px #1b3f5d0d}
+.notice-ribbon strong{background:#153f65;border-radius:7px}
+.glass-card{background:linear-gradient(120deg,#ffffffee,#f3f8fce2);border:1px solid #fff;backdrop-filter:blur(17px);-webkit-backdrop-filter:blur(17px);box-shadow:0 14px 35px #1539580d,inset 0 1px 0 #fff}
+.section-title{color:#153653;letter-spacing:-.048em}
+.academic-card{border-radius:23px;min-height:245px;transition:transform .2s,box-shadow .2s}
+.academic-card:hover,.faculty-card:hover{transform:translateY(-5px);box-shadow:0 20px 35px #092a4a20}
+.home-intro{padding-top:95px}
+.intro-image{border:6px solid #fff;border-radius:28px;overflow:hidden}
+.intro-image img{height:350px;object-fit:cover}
+.section{padding-top:85px;padding-bottom:85px}
+.footer-wrap{padding-top:85px}
+@media(max-width:1070px){.glass-navigation{background:linear-gradient(120deg,#193b4be8,#204251e8)}.nav-links{background:#183a4ef2;border-color:#ffffff33}.nav-links>a,.more-menu>summary{color:#f7fbff}.more-list{background:#23475b}.hero-grid{width:calc(100% - 54px);padding:55px 0 147px;min-height:665px}.hero-feature-grid{left:27px;right:27px}.hero-copy h1{font-size:clamp(40px,4.6vw,58px)}.hero-media{min-height:355px}.students-hero{height:320px}.school-board-badge{right:0}}
+@media(max-width:760px){.nav-anchor{padding:8px 0}.glass-navigation{min-height:67px;border-radius:16px}.hero-grid{display:flex;flex-direction:column;align-items:stretch;min-height:0;padding:43px 0 32px;width:calc(100% - 34px)}.hero-panel{min-height:0}.hero-copy{padding:0}.hero-copy h1{font-size:clamp(37px,8.4vw,55px);line-height:1.12}.hero-copy p{font-size:13px}.hero-media{min-height:0;margin-top:22px;padding:0 0 10px}.students-hero{height:235px;width:100%;transform:none;border-radius:19px}.students-caption{bottom:10px;right:10px;font-size:9px}.school-board-badge{top:-12px;right:2px;padding:10px 13px;max-width:230px;border-radius:14px}.board-badge-icon{width:31px;height:31px}.board-badge-icon svg{width:18px}.school-board-badge b{font-size:10px}.school-board-badge small{font-size:9px}.hero-feature-grid{position:relative;bottom:auto;left:auto;right:auto;margin:4px 15px 17px;gap:9px}.hero-feature{padding:12px 10px}.hero-feature .h-icon{width:34px;height:34px}.hero-feature b{font-size:11px}.hero-feature small{font-size:9px}.hero-feature-grid{grid-template-columns:repeat(2,1fr)}.notice-ribbon{border-radius:0 0 14px 14px}.home-intro{padding-top:70px}.section{padding-top:72px;padding-bottom:72px}}
+@media(max-width:420px){.glass-navigation{padding:6px 9px}.hero-copy h1{font-size:37px}.students-hero{height:190px}.hero-feature-grid{gap:7px;margin:4px 10px 12px}.hero-feature{padding:10px 8px;gap:8px}.hero-feature .h-icon{display:none}.school-board-badge{max-width:195px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}

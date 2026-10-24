@@ -1,37 +1,29 @@
-# NXT GEN English Medium School
+# NXT GEN ENGLISH MEDIUM SCHOOL — Liquid Glass Concept 1
 
-## Final visual choice: Template 1 — Modern Premium (Balanced & Professional)
+A freshly built, mobile-first school website inspired by the selected **cinematic Apple-style liquid glass** direction. Public school details must be verified.
 
-This repository's **GitHub Pages website** now uses the user-selected Template 1 direction.
-
-### Demo website
-
+## Live demo
 https://koinkarsairaj74-droid.github.io/nxtgen/
 
-The address becomes available after GitHub Pages has successfully deployed the `main` branch's `site/` directory through **Settings → Pages → GitHub Actions**.
+## Deployment
+The GitHub Actions workflow in .github/workflows/deploy.yml deploys the static contents of `site/` directly to GitHub Pages. In Settings > Pages, choose GitHub Actions as the build source.
 
-### Source files for the selected design
+## Active website source
+- `site/index.html` — accessible navigation, identity and linked sections
+- `site/glass.css` — layout, glass cards, desktop/mobile styling
+- `site/first-choice.css` — selected cinematic glass look with translucent dark navigation and campus hero
+- `site/glass.js` — English/Marathi public copy, all public routes, search, notices, filterable gallery, calendar and four-role login demo
+- `site/assets` — generated **illustrative** school campus and student images, and a crest
 
-- `site/index.html` — new Template 1 layout and complete public information pages.
-- `site/template-one.css` — self-contained responsive visual design.
-- `site/app.js` — navigation, search, dynamic demo notices, gallery filters, faculty listings, calendars, role-selector login UI.
-- `site/favicon.svg` — custom school crest.
-- `.github/workflows/deploy.yml` — publishes `site/` directly, with **no Next.js build**.
+Older Next.js files and previous prototype styles remain in repository history but are **not deployed** by the Pages workflow.
 
-Older Next.js prototype files and unused old stylesheets remain for source history but are **not linked from this website**.
+## What is demo-only
+The school building and student images are **AI-generated concept visuals, not authentic campus photographs**. Official contact details, verified faculty identities, school achievements and events have not been provided. Example notices and calendar dates are labeled as demos.
 
-### Design
+The role-selector school portal is a UI preview. No credentials are transmitted or saved, and real management-system integration remains pending. The separate secured content management system requires Supabase/server-side authorization and is locked pending configuration. Do not put student records, passwords or private data in this public static site.
 
-Template 1 includes a large photographic hero with navy gradient, formal white school masthead, navy navigation, restrained gold CTAs, four-value highlight strip, welcome/principal section, academics, faculty, notices & calendar, school-life gallery, and admissions.
+## Local preview
+Open `site/index.html` in a browser. Google Fonts may require internet access. No npm or build step is required.
 
-### Accuracy / production readiness
-
-**Visual demonstration only, not the live school management platform.** Stock images are not actual school photographs. All faculty names and profiles, facilities, event notices, school contact details and school history require verification before publication. Academic years 2026–27 and 2027–28 are illustrative. The public website does not collect admissions applications, as requested.
-
-The Admin/Teacher/Student/Parent login tabs are non-functional demonstration UI; no credentials are transmitted or stored. A separate secure content-management admin panel, Supabase configuration, bilingual Marathi content, and integration to the existing management software remain outstanding and require server-side authentication and permissions. GitHub Pages is static hosting, so these require a separate secure backend.
-
-### Development and deployment
-
-Open `site/index.html` locally to preview (internet is required for fonts and illustrative Unsplash photos). Use **GitHub → Settings → Pages → Source: GitHub Actions** to publish. View the Actions tab for a successful deployment; committing code alone does not confirm a live site.
-
-Do not upload real student data or credentials into a public repository.
+## Validation
+The source was tested in headless Chromium at 1440px and 390px widths: basic routes and Marathi switching passed without JavaScript page errors or horizontal overflow. GitHub Pages deployment status must be verified separately.
